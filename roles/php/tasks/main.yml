@@ -1,0 +1,5 @@
+---
+- name: Install php
+  ansible.builtin.dnf:
+    name: php
+    state: present

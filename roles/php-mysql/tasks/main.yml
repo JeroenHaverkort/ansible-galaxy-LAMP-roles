@@ -1,0 +1,5 @@
+---
+- name: Install php-mysql
+  ansible.builtin.dnf:
+    name: php-mysqlnd
+    state: present
